@@ -1,0 +1,54 @@
+
+.categories{
+    display: flex;
+    justify-content:space-between;
+    padding: 2% 15% 0%;
+    
+}
+.flowercategories{
+    padding: 0px 15px 0px 0px ;
+}
+.flowercategories.ctg{
+    color: #f34f3f;
+}
+.fctg{
+    transition: 2sn;
+}
+.fctg:hover{
+    color: #f34f3f;
+}
+.select select{
+    border: none;
+    font-size: 20px;
+    outline-style: none;
+}
+.all{
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 22%;
+    margin: 5px 1px 35px 0px;
+}
+.photo{
+    background-position: center;
+    background-size: cover;
+}
+.photo img{
+    width: 100%;
+    transition: 0.4s;
+}
+.photo img:hover{
+    transform: scale(1.03);
+}
+.content{
+    text-align: center;
+}
+.text span{
+    display: block;
+    text-align: center;
+    color: #afafaf;
+}
